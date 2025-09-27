@@ -113,9 +113,12 @@
       "project_role": "开发者",
       "project_time": "2023.09 - 2023.10",
       "project_desc": "麻省理工大学 6.824 分布式系统课程 lab 2\n通过 go 语言实现分布式共识算法 Raft\n实现功能包括 leader 选举， log 复制和同步， log 持久化，通过测试 100 次无一出错\n应用技术： go 并发编程， rpc",
-      "project_content": "主要功能：\n1. leader 选举：当 follower 选举计时器超时，转变为 candidate 向其它 raft 服务器发出 requestvote rpc ，成为 leader后定期向其它 raft 服务器发出 appendentries rpc 以重置选举计时器\n2.log 复制和同步： leader 根据从客户端收到的 log 向其它 raft 服务器发出 appendentries rpc 以同步 log ，当获得大部分 raft 服务器的共识，对 log 进行 commit\n3.log 持久化： raft 服务器将持久化状态写入磁盘，当重启时可以恢复持久化状态\n技能 / 证书及其他"
+      "project_content": "主要功能：\n1. leader 选举：当 follower 选举计时器超时，转变为 candidate 向其它 raft 服务器发出 requestvote rpc ，成为 leader后定期向其它 raft 服务器发出 appendentries rpc 以重置选举计时器\n2.log 复制和同步： leader 根据从客户端收到的 log 向其它 raft 服务器发出 appendentries rpc 以同步 log ，当获得大部分 raft 服务器的共识，对 log 进行 commit\n3.log 持久化： raft 服务器将持久化状态写入磁盘，当重启时可以恢复持久化状态"
     }
   ],
+  "aboutme": {
+    "aboutme_desc": "华中师范大学计算机科学与技术25届本科毕业，获得多项算法竞赛奖项包括国际大学生程序设计竞赛区域赛银牌，先后在字节跳动生活服务，电商，data-tns部门实习，25年7月正式入职tns部门，工作至今"
+  },
   "theme": {
     "color": "#2f5785",
     "tagColor": "#8bc34a"
