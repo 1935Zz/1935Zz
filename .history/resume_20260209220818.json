@@ -76,12 +76,12 @@
     },
     {
       "company_name": "字节跳动",
-      "department_name": "Data-tns 视频安全",
+      "department_name": "Data-tns 机审平台",
       "work_time": [
         "2025.10",
-        "至今"
+        "2025.10"
       ],
-      "work_desc": "负责 trust and safety 业务视频安全审核业务中自动审核模块，完成了模型和视频特征迭代，并支持迁移自动审核架构迁移"
+      "work_desc": 
     }
   ],
   "skillList": [
